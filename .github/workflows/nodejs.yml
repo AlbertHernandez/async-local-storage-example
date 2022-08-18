@@ -23,6 +23,3 @@ jobs:
         run: |
           npm run build --if-present
           npm run lint
-      - name: npm test
-        run: |
-          npm test
