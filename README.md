@@ -1,4 +1,4 @@
-<h1 align="center">Async Local Storage Example</h3>
+<h1 align="center">Async Local Storage Example</h1>
 
 <p align="center">
   Repository to show the usage and benefits of async local storage
@@ -10,7 +10,6 @@
 * [Playground](#playground)
 * [Building](#building)
 * [Linting](#linting)
-* [Contributing](#contributing)
 
 ## Preparing environment
 
@@ -34,8 +33,6 @@ npm run start:without-storage
 ```bash
 npm run start:with-storage
 ```
-
-In case you want
 
 ## Building
 
