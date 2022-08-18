@@ -1,11 +1,7 @@
-<h1 align="center">Typescript Library Skeleton</h3>
+<h1 align="center">Async Local Storage Example</h3>
 
 <p align="center">
-  Skeleton for new typescript libraries
-</p>
-
-<p align="center">
-    <a href="https://github.com/AlbertHernandez/typescript-library-skeleton/actions/workflows/nodejs.yml?branch=main"><img src="https://github.com/AlbertHernandez/typescript-library-skeleton/actions/workflows/nodejs.yml/badge.svg?branch=main" alt="nodejs"/></a>
+  Repository to show the usage and benefits of async local storage
 </p>
 
 ## Table of Contents
@@ -13,11 +9,10 @@
 * [Preparing environment to contribute](#preparing-environment)
 * [Playground](#playground)
 * [Building](#building)
-* [Testing](#testing)
 * [Linting](#linting)
 * [Contributing](#contributing)
 
-## Preparing environment to contribute
+## Preparing environment
 
 This library has been designed to work with node v16 and npm 8. In order to configure your local environment you can run:
 
@@ -30,26 +25,22 @@ npm install
 
 ## Playground
 
-This library offers a playground where we can play with the functions that we are developing
+This repo contains two main scripts for running the examples, ones that works without the async local storage and the other with it.
 
 ```bash
-npm run playground
+npm run start:without-storage
 ```
 
-In case you wan
+```bash
+npm run start:with-storage
+```
+
+In case you want
 
 ## Building
 
 ```bash
 npm run build
-```
-
-## Testing
-
-### Jest with Testing Library
-
-```bash
-npm run test
 ```
 
 ## Linting
@@ -65,7 +56,3 @@ Fix lint issues automatically
 ```bash
 npm run lint:fix
 ```
-
-## Contributing
-
-Contributions welcome! See the [Contributing Guide](https://github.com/AlbertHernandez/typescript-library-skeleton/blob/main/CONTRIBUTING.md).
