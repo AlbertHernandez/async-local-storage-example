@@ -27,6 +27,11 @@ npm install
 This repo contains two main scripts for running the examples, ones that works without the async local storage and the other with it.
 
 ```bash
+npm run start:initial
+```
+
+
+```bash
 npm run start:without-storage
 ```
 
